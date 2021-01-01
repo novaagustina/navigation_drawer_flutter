@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:navigation_menu/AddData.dart';
 import 'SecondFragment.dart';
 import 'ThirdFragment.dart';
 import 'FirstFragment.dart';
@@ -11,9 +12,9 @@ class DrawerItem {
 
 class PageHome extends StatefulWidget {
   final drawerItem = [
-    new DrawerItem("Cart", Icons.add_shopping_cart),
-    new DrawerItem("Travel", Icons.card_travel),
-    new DrawerItem("Info", Icons.info),
+    new DrawerItem("News", Icons.add_shopping_cart),
+    new DrawerItem("Tambah Kategori", Icons.card_travel),
+    new DrawerItem("Kategori", Icons.info),
   ];
 
   @override
@@ -28,7 +29,7 @@ class _PageHomeState extends State<PageHome> {
       case 0:
         return new FirstFragment();
       case 1:
-        return new SecondFragment();
+        return new AddData();
       case 2:
         return new ThirdFragment();
 
