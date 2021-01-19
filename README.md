@@ -4,7 +4,12 @@ CRUD FLUTTER & MYSQL (Client - Server)
 
 ## Getting Started
 
-Proyek ini adalah titik awal untuk aplikasi CRUD Flutter menggunakan MySQL.
+Proyek ini adalah titik awal untuk aplikasi CRUD Flutter menggunakan MySQL. Komunikasi data dilakukan menggunakan API.
+
+Langkah awal untuk melakukan CRUD pada flutter :
+1. Buat lah API dengan format JSON 
+2. Tambahkan library http pada project Flutter
+3. Gunakan http get/post/put untuk melakukan interaksi menggunakan http (Sesuaikan dengan kebutuhan)
 
 A few resources to get you started if this is your first Flutter project:
 
