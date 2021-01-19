@@ -1,10 +1,10 @@
 # navigation_menu
 
-A new Flutter project.
+CRUD FLUTTER & MYSQL (Client - Server)
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Proyek ini adalah titik awal untuk aplikasi CRUD Flutter menggunakan MySQL.
 
 A few resources to get you started if this is your first Flutter project:
 
