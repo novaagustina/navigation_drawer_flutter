@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:navigation_menu/AddData.dart';
-import 'SecondFragment.dart';
+import 'AddNews.dart';
 import 'ThirdFragment.dart';
 import 'FirstFragment.dart';
 
@@ -14,6 +14,7 @@ class PageHome extends StatefulWidget {
   final drawerItem = [
     new DrawerItem("News", Icons.add_shopping_cart),
     new DrawerItem("Tambah Kategori", Icons.card_travel),
+    new DrawerItem("Tambah Berita", Icons.info),
     new DrawerItem("Kategori", Icons.info),
   ];
 
@@ -31,8 +32,9 @@ class _PageHomeState extends State<PageHome> {
       case 1:
         return new AddData();
       case 2:
+        return new AddNews();
+      case 3:
         return new ThirdFragment();
-
       default:
         return new Text("Error");
     }

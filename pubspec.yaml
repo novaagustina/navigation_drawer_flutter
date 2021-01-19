@@ -24,8 +24,15 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.0
-  http: ^0.12.2
+  discord_permissions: ^1.0.1
+  downloads_path_provider: ^0.1.0
+  ext_storage: ^1.0.3
   fluttertoast: ^7.1.1
+  http: ^0.12.2
+  image: ^2.1.19
+  image_picker: ^0.6.7+21
+  path_provider: ^1.6.27
+  permission_handler: ^5.0.1+1
 
 dev_dependencies:
   flutter_test:

@@ -2,17 +2,17 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'PageHome.dart';
 
-class EditKatalog extends StatefulWidget {
+class EditKategori extends StatefulWidget {
   final List list;
   final int index;
 
-  EditKatalog({this.list, this.index});
+  EditKategori({this.list, this.index});
 
   @override
-  _EditKatalogState createState() => new _EditKatalogState();
+  _EditKategoriState createState() => new _EditKategoriState();
 }
 
-class _EditKatalogState extends State<EditKatalog> {
+class _EditKategoriState extends State<EditKategori> {
   TextEditingController controllerKategori;
 
   void editData() {
