@@ -21,8 +21,8 @@ Screenshot Hasil Program :
   </thead>
   
   <tbody>
-  <td><img src="add_data.jpg"/></td>
-  <td><img src="list_kategori.jpg"/></td>
+  <td><img src="image/add_data.jpg"/></td>
+  <td><img src="image/list_kategori.jpg"/></td>
   </tbody>
   </table>
 
