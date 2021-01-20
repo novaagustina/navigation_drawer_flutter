@@ -12,7 +12,17 @@ Langkah awal untuk melakukan CRUD pada flutter :
 3. Gunakan http get/post/put untuk melakukan interaksi menggunakan http (Sesuaikan dengan kebutuhan)
 
 Screenshot Hasil Program :
-![alt text](https://drive.google.com/file/d/1O5fTe0ynuUpm69pK6CcKCzx-21QMRwwV/view?usp=sharing)
+<table>
+  <thead>
+    <tr>Success Upload & Add Data to Database</tr>
+    <tr>List Kategori</tr>
+  </thead>
+  
+  <tbody>
+  <td><img src="add_data.jpg"/></td>
+  <td><img src="list_kategori.jpg"/></td>
+  </tbody>
+  </table>
 
 A few resources to get you started if this is your first Flutter project:
 
