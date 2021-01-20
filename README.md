@@ -14,8 +14,10 @@ Langkah awal untuk melakukan CRUD pada flutter :
 Screenshot Hasil Program :
 <table>
   <thead>
-    <tr>Success Upload & Add Data to Database</tr>
-    <tr>List Kategori</tr>
+    <tr>
+    <th>Success Upload & Add Data to Database</th>
+    <th>List Kategori</th>
+    </tr>
   </thead>
   
   <tbody>
